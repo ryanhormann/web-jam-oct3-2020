@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <title>Haunted House - Tickets</title>
+    </head>
+    <body>
+
+        <header>
+            <a href="index.html"><h1><span id="chases-h1">Chase's</span><br><span id="haunted-house-h1">HAUNTED HOUSE</span></h1></a>
+            <nav>
+                <ul>
+                    <li>
+                        
+                        <a href="tickets.html">TICKETS</a>
+                        <a href="cornmaze.html">CORN MAZE</a>
+                        <a href="sponsors.html">SPONSORS</a> <!-- Make this a link to a "sponsor" from code cavern, just to follow the rules -->
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+            <p id="calendar-description">We are open every weekend, Friday - Sunday, for the entire month of October!</p>
+
+            <table>
+                <tr>
+                    <th width="150">Monday</th>
+                    <th width="150">Tuesday</th>
+                    <th width="150">Wednesday</th>
+                    <th width="150">Thursday</th>
+                    <th width="150">Friday</th>
+                    <th width="150">Saturday</th>
+                    <th width="150">Sunday</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                    <td class="calendar-highlight">2</td>
+                    <td class="calendar-highlight">3</td>
+                    <td class="calendar-highlight">4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td class="calendar-highlight">9</td>
+                    <td class="calendar-highlight">10</td>
+                    <td class="calendar-highlight">11</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td class="calendar-highlight">16</td>
+                    <td class="calendar-highlight">17</td>
+                    <td class="calendar-highlight">18</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td class="calendar-highlight">23</td>
+                    <td class="calendar-highlight">24</td>
+                    <td class="calendar-highlight">25</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td class="calendar-highlight">30</td>
+                    <td class="calendar-highlight">31</td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <p id="pricing-p">Pricing</p>
+
+            <table id="pricing-table">
+                <tr>
+                    <th width="250">Fridays</th>
+                    <th width="250">Saturdays and Sundays</th>
+                </tr>
+                <tr>
+                    <td>$10</td>
+                    <td>$15</td>
+                </tr>
+            </table>
+
+            <form meth="post">
+                <fieldset>
+                    <legend>Tickets</legend>
+                    <div id="form-positioning">
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+                        <br>
+                        <br>
+                        <label for="date">Date</label>
+                        <input type="date" name="date">
+                        <br>
+                        <br>
+                        <label for="cc">Credit Card Number</label>
+                        <input type="text" name="cc">
+                        <br>
+                        <br>
+                        <input type="submit" value="Buy Tickets!" id="buy-button">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
